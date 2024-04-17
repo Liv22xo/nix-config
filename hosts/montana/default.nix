@@ -39,8 +39,12 @@
   services = {
     xserver = {
       enable = true;
+      # Gnome
       displayManager.gdm.enable = true;
       desktopManager.gnome.enable = true;
+      # KDE
+      # displayManager.sddm.enable = true;
+      # desktopManager.plasma5.enable = true;
     };
   };
 
